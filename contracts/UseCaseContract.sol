@@ -32,8 +32,8 @@ import "@openzeppelin/contracts/access/AccessControl.sol";
  * @dev Additionally you can override callAllowInputsFor() or and callAllowFuncCallsFor() if you please mixing this
  * InteractionControl with, for example, other useful ones like Ownable or AccessControl contracts from OpenZeppelin.
  *
- * @notice As InteractionControl inherits from CallOrderControl.sol and InputControl.sol you can use their modifier directly
- * if pleased.
+ * @notice As InteractionControl inherits from CallOrderControl.sol and InputControl.sol you can use just their modifier 
+ * directly in a function if pleased.
  */
 contract UseCaseContract is InteractionControl, Ownable {
     uint256 private s_myData;

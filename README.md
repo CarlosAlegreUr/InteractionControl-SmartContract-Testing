@@ -23,7 +23,6 @@ If further elaboration, development or testing please mention me in your work.
 
 - Improve and review (static analysis, audit...) code's tests.
 - Test in testnet.
-- Finish testing localhost, errors and inconsistencies found in dependant packages.
 
 ## 📨 Contact 📨
 

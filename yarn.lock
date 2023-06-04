@@ -1320,10 +1320,10 @@ call-bind@^1.0.0, call-bind@^1.0.2:
     function-bind "^1.1.1"
     get-intrinsic "^1.0.2"
 
-call-order-control-contract@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/call-order-control-contract/-/call-order-control-contract-1.0.1.tgz#6a9474a1643890373bc5f03e8c4a2593eaee4f92"
-  integrity sha512-MJU8REoZwl5pGxQtIhi/Ra8xHZZP0S+37rOaH/2kcqwxkjleZ14llt64v3+MTl0V3YnBgh4Ja5eZiFcl+4yp9A==
+call-order-control-contract@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/call-order-control-contract/-/call-order-control-contract-2.0.0.tgz#1d84bec7103f2fd8350aef5aca6563b27c54c0b3"
+  integrity sha512-DNNYq1GWVuylZnCMdzfVAk3bwCqu/1Zdb1LcXD8yjHLqkR24SUFIgc4+zIgUKHNeG4IUXr4XTR4PWhwSIkb1mg==
 
 camelcase@^5.0.0:
   version "5.3.1"
@@ -2827,10 +2827,10 @@ ini@^1.3.5:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
   integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
-input-control-contract@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/input-control-contract/-/input-control-contract-2.0.0.tgz#34a03c4d80d7e08dc7092dc038527dcbab90a098"
-  integrity sha512-FhpCYGBOQd35IhvLuwrYpDyVIXVd9zLBbYgAAbYHxwryxHdt6+js7N2IhunE4TGffvR5XGWV+Qct0H+dbF4Gfg==
+input-control-contract@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/input-control-contract/-/input-control-contract-3.0.0.tgz#818eda2fe57d6d94fbd24ba355679adc06da7aba"
+  integrity sha512-p6bfDz6MoIZBXBDKeaObKik4D3a/GBAputBDfoWMqp4PZL+2tjk0Hrlcmf8Q1UoI+jY/NTbweyFGwWrLJq08KQ==
 
 internal-slot@^1.0.5:
   version "1.0.5"

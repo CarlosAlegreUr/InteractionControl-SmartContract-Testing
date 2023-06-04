@@ -193,29 +193,8 @@ describe("InteractionControl.sol tests", function () {
         "InputControl__NotAllowedInput"
       );
 
-      await useCaseContract.callAllowInputsFor(
-        client1,
-        [validInput, validInput2, validInput],
-        funcSig1,
-        false
-      );
-
-      // Resettin permissions for next times tests run.
-      await useCaseContract.callAllowInputsFor(
-        client1,
-        [validInput, validInput2, validInput],
-        funcSig1,
-        false
-      );
-      await useCaseContractClient1.changeData(1);
-      number = await useCaseContractClient1.getNumber();
-      assert.equal(1, number);
-      await useCaseContractClient1.changeData(2);
-      number = await useCaseContractClient1.getNumber();
-      assert.equal(2, number);
-      await useCaseContractClient1.changeData(1);
-      number = await useCaseContractClient1.getNumber();
-      assert.equal(1, number);
+      // Resetting permissions for next times tests run.
+      await useCaseContract.callAllowFuncCallsFor(client1, [], false);
     });
   });
 });

@@ -27,7 +27,7 @@
     "typechain": "^8.1.0"
   },
   "dependencies": {
-    "call-order-control-contract": "^1.0.1",
-    "input-control-contract": "^2.0.0"
+    "call-order-control-contract": "^2.0.0",
+    "input-control-contract": "^3.0.0"
   }
 }
